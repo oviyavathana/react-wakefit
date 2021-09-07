@@ -1,0 +1,12 @@
+$textblack : #000;
+$textwhite : #fff;
+
+
+.button button {
+    background-color: $textblack;
+    color: $textwhite;
+    padding: 22px 59px;
+    border-radius: 50px;
+    box-shadow: none;
+    margin: 0 auto;
+}

@@ -1,0 +1,112 @@
+
+
+$bannercolor : #6553A2;
+$textwhite : #fff;
+$textcolor :#CFC2F2;
+
+.banner-science
+{
+    background-color: $bannercolor;
+    padding: 0 0 0px 0;
+}
+.image {
+    margin-top: 54px;
+    margin-bottom: 109px;
+}
+.mobile-header {
+    display: none;
+    background-image: url(../../../images/image2.png);
+}
+.banner-science h1 {
+ color: $textcolor;
+font-family: Recoleta;
+font-size: 72px;
+font-weight: 600;
+line-height: 70px;
+text-align: left;
+position: absolute;
+padding-left: 0px;
+padding-top: 230px;
+}
+.science-head {
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+.hr-line {
+    margin-top: 94px;
+    margin-bottom: 82px;
+}
+.mental-heading {
+    padding-top: 90px;
+    padding-bottom: 24px;
+}
+.science-content {
+    padding-top: 90px;
+}
+.f-400 {
+    font-weight: 400;
+}
+h2 {
+    font-family: Recoleta;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -1px;
+text-align: left;
+
+}
+.container.page-align {
+ 
+        margin-left: auto;
+        margin-right: auto;
+        width: 63%;
+}
+.content h3 {
+ font-family: 'Noto Sans', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0px;
+text-align: left!important;
+
+}
+.content h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+p {
+    font-family: 'Noto Sans', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+@media only screen  
+and (min-device-width: 300px)
+and (max-device-width : 992px) 
+{
+.banner-science {
+    display: none;
+
+}
+.mobile-header {
+    display: block;
+}
+.container.page-align {
+ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+}

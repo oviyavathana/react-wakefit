@@ -1,0 +1,39 @@
+$colorwhite: #fff;
+$varblack : #000;
+
+.search-form
+{
+  border-bottom: 1px solid $colorwhite;
+  width: 19em;
+  margin-left: 4.4em;
+}
+.fa-search
+{
+  color: $colorwhite;
+}
+#searchinput::placeholder
+{
+  color: $colorwhite;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.search-width
+{
+  width: 88%;
+}
+ .search-width:focus {
+  outline: none !important;
+}
+.form-control:focus {
+    box-shadow: none;
+  }
+  
+  .form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+  }

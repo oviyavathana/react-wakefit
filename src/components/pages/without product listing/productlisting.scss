@@ -1,0 +1,119 @@
+$navbg : #967d6b;
+$bannercolor :#C9AC97;
+$textblack :#000;
+$textwhite : #fff;
+$colorlink:#BAA3F4;
+.banner 
+{
+    background-color: $bannercolor;
+}
+.container.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+}
+.row.author-col {
+
+    width: 64%;
+    margin: 0 auto;
+}
+// .row .width-40  {
+//     width: 40%;
+// }
+.h4-head {
+    font-family: Recoleta;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -1px;
+text-align: left;
+
+}
+.mobile-banner {
+    display: none;
+}
+.f-400 {
+    font-weight: 400;
+}
+.author {
+    margin-top: 37px;
+    margin-bottom: 56px;
+}
+h4 {
+    font-family: Recoleta;
+font-size: 2em;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -1px;
+text-align: left;
+margin-top: 78px;
+
+}
+.author img {
+    float: left;
+}
+.quotes {
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+font-family: 'Noto Sans', sans-serif;
+}
+.content p 
+{
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 2em;
+    color: $textblack;
+    margin-bottom: 4px;
+
+}
+.content  h3 {
+    font-family: 'Noto Sans', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0px;
+text-align: left;
+color: $textblack;
+padding-bottom: 0px;
+text-align: center;
+}
+.button button {
+    background-color: $textblack;
+    color: $textwhite;
+    padding: 22px 59px;
+    border-radius: 50px;
+    box-shadow: none;
+    margin: 0 auto;
+}
+hr {
+border: 1px solid $textblack;
+}
+
+@media only screen  
+and (min-device-width: 300px)
+and (max-device-width : 992px)
+{
+    .banner 
+{
+    background-color: $bannercolor;
+    display: none;
+}
+.mobile-banner {
+    background-image: url('../../../images/image 898.png');
+    height: 300px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+}

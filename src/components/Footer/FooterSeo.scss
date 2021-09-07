@@ -1,0 +1,21 @@
+$footerbg :#E3DEEF;
+$linkcolor : #696969;
+
+.Footerseo 
+{
+    display: block;
+}
+.Footerseo{
+    background-color: $footerbg;
+    padding-top: 5.7em;
+    padding-bottom: 3.3em;  
+    display: block;
+}
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 992px) {
+    .Footerseo 
+    {
+        display: none;
+    }
+}

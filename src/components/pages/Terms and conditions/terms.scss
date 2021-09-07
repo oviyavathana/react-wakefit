@@ -1,0 +1,131 @@
+
+$navbg : #967d6b;
+$greencolor :#82B981;
+$textblack :#000;
+$textwhite : #fff;
+$colorlink:#BAA3F4;
+.terms-banner
+{
+    background-color: $greencolor;
+}
+.content .left-line {
+    border-left: 2px solid #000;
+    padding-left: 30px;
+    margin: 33px 0 88px 0;
+}
+.content .order-space {
+    margin-bottom: 32px;
+}
+.content .context p {
+    margin-bottom: 48px;
+}
+.container.center-align {
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+}
+.content a {
+    color:$colorlink;
+    text-decoration: none;
+}
+.content h6 {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.mobile-headerterms {
+    background-color: $greencolor;
+    height: 300px;
+    display: none;
+}
+.banner .row
+{
+    margin-right: unset;
+}
+.col-md-6 h2{
+    font-size: 4.5rem;
+    padding-top: 3.5em;
+}
+.navbar-collapse {
+    background-color: $greencolor;
+}
+.terms {
+    font-size: 24px;
+    font-weight: 400;
+    color: $textwhite;
+}
+.conditions {
+    font-size: 36px;
+    font-weight: 600;
+    color: $textwhite;
+}
+ .content p 
+{
+    font-size: 0.9em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+    color: $textblack;
+    margin-bottom: 4px;
+
+}
+.content li
+{
+    font-size: 0.9em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+    color: $textblack;
+
+}
+.content .f-600 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+// .body-content {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+@media only screen  
+and (min-device-width: 300px)
+and (max-device-width : 992px)
+{
+  .container br {
+      display: none;
+  }
+    .container.center-align {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .terms-banner
+{
+    background-color: $greencolor;
+    display: none;
+}
+.mobile-headerterms {
+    background-color: $greencolor;
+    height: 300px;
+    display: block;
+    padding-left: 30px;
+
+}
+.pos-element {
+    position: relative;
+    top: 49%;
+}
+.mobile-banner h4 {
+    color: $textwhite;
+    font-family: Recoleta;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+}

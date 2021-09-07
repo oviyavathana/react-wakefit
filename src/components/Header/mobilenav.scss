@@ -1,0 +1,41 @@
+$linkblue :#594FBD;
+$linkgrey :#757575;
+
+.nav__link {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 13px;
+    color:$linkgrey;
+    text-decoration: none;
+    display: none;
+}
+.nav {
+    display: none;
+}
+
+.nav__link--active {
+    color: $linkblue;
+}
+
+.nav__icon {
+    font-size: 18px;
+}
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 991px){
+    nav{
+        display: block;
+    }
+    .nav__link {
+        display: block;
+    }
+
+}

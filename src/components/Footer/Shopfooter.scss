@@ -1,0 +1,54 @@
+$footerbg :#E3DEEF;
+$linkcolor : #696969;
+.shopfooter{
+    background-color: $footerbg;
+    padding-top: 5.7em;
+    padding-bottom: 3.3em;  
+}
+
+.mobile
+    {
+        display: none;
+    }
+.arrow
+{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color:$footerbg;
+}
+.shop_nav a {
+    color: $linkcolor;
+    text-decoration: none;
+    font-size: 0.75em;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1rem;
+    padding: 0px;
+    margin: 0px;
+}
+.collapsing 
+{
+    height: 100%;
+}
+li
+{
+    line-height: normal;
+}
+p{
+    font-size: 0.82em;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}
+.arrow{
+    margin:0 auto;
+}
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 767px) {
+   
+    .mobile
+    {
+        display: block;
+    }
+
+}

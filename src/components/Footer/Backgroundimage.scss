@@ -1,0 +1,48 @@
+$colorwhite: #fff;
+
+.Bgimage
+{
+    background-image: url(../../images/Rectangle1444.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// @supports (background-image: url("../images/Rectangle1444.png")) {
+//     .Bgimage {
+//         background: url("../images/Rectangle1444.webp");
+//     }
+// }
+h1{
+     color: $colorwhite;
+     font-size: 4.13em;
+     line-height: 1.4em;
+     padding: 1.1em 0 0.15em 0.9em;
+}
+h3{
+    font-size: 1.5em;
+    color: $colorwhite;
+    line-height:1.49em;
+    padding: 0 0 4.9em 2.3em;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+@media only screen  
+and (min-device-width: 300px)
+and (max-device-width : 767px) {
+    .Bgimage
+{
+    background-position-x: center;
+}
+    h1 
+    {
+        padding: 1em 0 1em 0.46em;
+        font-size: 2.1em;
+        line-height: 0em; 
+    }
+    h3{
+        padding: 0 0 9em 1em;
+        font-size: 1.1em;
+        font-weight: 400;
+}
+}

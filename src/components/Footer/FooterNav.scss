@@ -1,0 +1,103 @@
+$colwhite: #fff;
+
+.mainlink 
+{
+    background-image: url('../../images/Rectangle1417background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-row
+{
+    padding-top: 5.4em;
+    padding-bottom: 5em;
+}
+.menus li{
+    margin-bottom: 0.9em;
+}
+.menus a{
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 0.9em;
+   
+}
+.footer-logo
+{
+    margin-bottom: 1.37em;
+}
+.sec-menu li  
+{
+    text-decoration: none;
+    margin-bottom: 0.9em;
+}
+.sec-menu a
+{
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.dash
+{
+    border-bottom: 1px solid $colwhite;
+     margin: 0.8em 0; 
+    width: 52%;
+    color: $colwhite;
+    opacity: 1;
+}
+.contact-info 
+{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.18em;
+    font-weight: 300;
+    line-height: 1.15em;
+}
+.office-info p
+{
+    font-size: 0.9em;
+    line-height: 1.18em;
+}
+.f-400
+{
+    font-weight: 400;
+}
+.f-300
+{
+    font-weight: 300;
+}
+.icons .fab 
+{
+    color: $colwhite;
+    margin-right: 0.8em;
+    background-color: #967A7E;
+    opacity: 2;
+    padding: 0.63em ;
+    border-radius: 3em;
+
+}
+.icons .fab.fa-facebook-f
+{
+    padding: 0.63em 0.8em;
+    border-radius: 3em;
+}
+@media only screen  
+and (min-device-width: 300px)
+and (max-device-width : 767px) {
+    .mainlink {
+        background-image: url('../../images/Rectangle\ 1308.png');
+        background-position-x: center;
+       
+    }
+
+.check{
+    display: block;
+}
+.arrowdown{
+    margin : 0 auto;
+    text-align: center;
+    display: flex;
+}
+.nav-row .col-md-3{
+    padding-left: 62px;
+}
+}
