@@ -87,7 +87,7 @@ class FooterSeo extends Component {
                              <li>
                              <a href="#!" className="text-black">  Hyderabad Mattress | Sofa</a>
                              </li>
-                            
+ 
                          </ul>
                          <p className="mb-0">Shop by rooms</p>
                          <ul className="list-unstyled shop_nav">

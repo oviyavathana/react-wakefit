@@ -1,0 +1,51 @@
+.banner-furnitureList{
+    background-color:#FFFFFF;
+    width: 95%;
+}
+.header-furnitureList{
+    font-family: Recoleta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+}
+.container .furnitureList{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.row .furniture-imglast-row{
+    width: 232px;
+    height: 200px;
+}
+.row .furniture-imglast-row{
+    width: 232px;
+    height: 232px;
+    padding: 12px;
+    margin-right: 12px;
+}
+.furniture-imagelast-row img{
+    width: 232px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;  
+}
+.row .furniturelist-imgnew{
+    width: 232px;
+    height: 232px;
+    padding: 12px;
+    margin-right: 12px;
+}
+.furniture-imagecolnlast-row img{
+    width: 480px;
+    height: 170px;
+    left: 0px;
+    top: 333px;
+    border-radius: 4px;
+}
+.row .furniture-imgcolnlast-row{
+    width: 480px;
+    height: 232px;
+    margin-right: 12px;
+}

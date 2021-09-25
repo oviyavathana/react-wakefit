@@ -12,7 +12,7 @@ import Author from'../../Author/author';
 import quote from '../../../images/quotes.png';
 class products extends Component {
 render() {
-return (
+return ( 
 <div>
    <div className="banner">
       <Header />

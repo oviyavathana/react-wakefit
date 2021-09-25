@@ -8,7 +8,7 @@ import star from '../../../images/Vector.png';
 import Seemore from'../Productlisting/button';
 class Productlist extends Component {
 render() {
-return ( 
+return (  
 <div className="product-list">
    <div className="container">
       <div className="row">
